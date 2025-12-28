@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Quiz Main page-->
+    <div class="startpage">
+        <h1 class="Quiz-header">Web Development Quiz</h1>
+        <p>Test your basic knowledge of HTML, CSS, and JavaScript with this short quiz.</p>
+        <h4 class="choose-category">Select Category</h4>
+        <div class="categories">
+            <button class="category-opt">HTML</button>
+            <button class="category-opt">CSS</button>
+            <button class="category-opt">Javascript</button>
+            <button class="category-opt">Fullstack</button>
+        </div>
+        <button id="start-button">Start Quiz</button>
+    </div>
+    <!--Quiz Guide-->
+    <div class="rules-section" id="rulesScreen">
+        <h2>Quiz Rules</h2>
+
+        <span class="rules">1. The quiz contains 10 multiple-choice questions.</span>
+        <span class="rules">2. Each question carries 1 mark.</span>
+        <span class="rules">3. Only one option is correct.</span>
+        <span class="rules">4. There is no negative marking.</span>
+
+        <button id="continueBtn">Continue</button>
+
+
+    </div>
+    <!--Quiz Container-->
+    <div class="questionSection">
+        <header class="quiz-header">
+            <div>
+                <h2 class="quiz-title">Quiz Application</h2>
+                <p class="selected-category"></p>
+            </div>
+            <i class="fa-solid fa-graduation-cap"></i>
+
+        </header>
+        <div class="quizContent">
+            <h2 class="quiz-Ques">Question1</h2>
+            <ul class="quiz-answers">
+                <li class="ans-option">
+                    <p>Option1 </p>
+                </li>
+                <li class="ans-option">
+                    <p>Option2</p>
+                </li>
+                <li class="ans-option">
+                    <p>Option3</p>
+                </li>
+                <li class="ans-option">
+                    <p>Option4</p>
+                </li>
+            </ul>
+        </div>
+        <div class="quiz-footer">
+            <p class="question-status"><b>2</b> of <b>10</b> questions</p>
+            <button class="next-btn">Next
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+
+
+    </div>
+
+    <!--Result page-->
+    <div class="result-page">
+        <img src="confetti.png" class="result-image">
+        <h2 class="result-title">Quiz Completed!</h2>
+        <p class="score-msg">You answered <b>0</b> out of <b>10</b> questions correctly.</p>
+        <p class="feedback-stmt"><b>Great Effort!</b></p>
+        <button class="try-again">
+            Try Again
+        </button>
+    </div>
+    <script src="scripts.js" defer></script>
+</body>
+
+</html>
