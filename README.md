@@ -30,4 +30,10 @@ It focuses on clean UI design, responsiveness, and interactive functionality.
 * CSS (Flexbox, Grid, Media Queries)
 * JavaScript (DOM Manipulation)
 
+## Output:
+Screenshots are included to demonstrate the full quiz flow:
 
+* Start page
+* Rules page
+* Quiz interface
+* Result page
