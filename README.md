@@ -1,10 +1,10 @@
-# Interactive-Quiz-Application
-Company: Codetech IT solutions
-Name:Ramshan Safrin M R J
-Intern Id: CTIS0337
-Domain:Frontend 
-Duration: 4 weeks
-Mentor:Neela Santhosh
+
+# Company: Codetech IT solutions
+# Name:Ramshan Safrin M R J
+# Intern Id: CTIS0337
+# Domain:Frontend 
+# Duration: 4 weeks
+# Mentor:Neela Santhosh
 
 # Interactive Quiz Application
 A responsive quiz application built using HTML, CSS, and JavaScript as part of a Frontend Development internship task.
