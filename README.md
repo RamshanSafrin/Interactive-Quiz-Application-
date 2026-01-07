@@ -1,7 +1,7 @@
 
 
-## Company: Codetech IT solutions**
-## Name:Ramshan Safrin M R J**
+## Company: Codetech IT solutions
+## Name:Ramshan Safrin M R J
 ## Intern Id: CTIS0337
 ## Domain:Frontend 
 ## Duration: 4 weeks
