@@ -37,3 +37,9 @@ Screenshots are included to demonstrate the full quiz flow:
 * Rules page
 * Quiz interface
 * Result page
+
+<img width="1913" height="933" alt="Image" src="https://github.com/user-attachments/assets/dbce48e6-621b-4010-b34e-080fe9ec8955" />
+<img width="1916" height="923" alt="Image" src="https://github.com/user-attachments/assets/fe753d59-8882-493e-85eb-cbebaf37f6f5" />
+<img width="1918" height="924" alt="Image" src="https://github.com/user-attachments/assets/0b891558-08ad-4c6e-97f1-81c05f4a0141" />
+<img width="1919" height="924" alt="Image" src="https://github.com/user-attachments/assets/6146e679-b71f-47dd-aa05-58c6485971d6" />
+<img width="1917" height="932" alt="Image" src="https://github.com/user-attachments/assets/64922090-b1fb-448b-a21f-562efa2e934c" />
